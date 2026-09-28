@@ -1,0 +1,53 @@
+.inner-container {
+    max-width: 1119px;
+    margin: 0 auto;
+}
+
+.row-three {
+    display: flex;
+    gap: 24px;
+     
+}
+
+.row-three .card {
+    width: 31.9%;
+}
+
+.row-two {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.row-two .feature {
+    width: 48.93%;
+}
+
+body {
+    background-color: #7a599a;
+    color: #f5f0f7
+}
+
+h1{
+    color: #ff8c00;
+    margin-bottom: 24px;
+}
+
+
+.card, .feature {
+    background-color: #2f1b3a;
+    border: 2px solid #ff8c00;
+    padding: 20px;
+}
+
+.intro{
+    margin-bottom: 24px;
+}
+
+.card h2, .feature h2 {
+    margin-bottom: 12px;
+}
+
+main{
+    padding: 40px 20px;
+}
